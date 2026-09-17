@@ -1,13 +1,17 @@
-function imprimeOla(nome){
-    alert(`
-        ---------------\n
-        Olá ${nome}!\n
-        ---------------`)
+function verificaIdade(idade){
+    if(idade < 18){
+        return 0
+    }else{
+        return 1
+    }
 }
-function leNome(){
-    let pNome = prompt("Digite seu nome: ")
-    return pNome
+function catraca(){
+    let id = Number(prompt("Digite sua idade"))
+    if(verificaIdade(id)){
+        console.log("ENtrada inteira")
+    }else{
+        console.log("Meia entrada")
+    }
 }
 
-let nomeSalvo = leNome()
-imprimeOla(nomeSalvo)
+catraca()
