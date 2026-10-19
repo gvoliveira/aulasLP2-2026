@@ -1,0 +1,62 @@
+[
+  {
+    "nome_disco": "Hybrid Theory",
+    "nome_banda": "Linkin Park",
+    "ano_lancamento": 2000,
+    "quantidade_musicas": 12
+  },
+  {
+    "nome_disco": "American Idiot",
+    "nome_banda": "Green Day",
+    "ano_lancamento": 2004,
+    "quantidade_musicas": 13
+  },
+  {
+    "nome_disco": "Hot Fuss",
+    "nome_banda": "The Killers",
+    "ano_lancamento": 2004,
+    "quantidade_musicas": 11
+  },
+  {
+    "nome_disco": "By the Way",
+    "nome_banda": "Red Hot Chili Peppers",
+    "ano_lancamento": 2002,
+    "quantidade_musicas": 16
+  },
+  {
+    "nome_disco": "Origin of Symmetry",
+    "nome_banda": "Muse",
+    "ano_lancamento": 2001,
+    "quantidade_musicas": 11
+  },
+  {
+    "nome_disco": "Is This It",
+    "nome_banda": "The Strokes",
+    "ano_lancamento": 2001,
+    "quantidade_musicas": 11
+  },
+  {
+    "nome_disco": "Minutes to Midnight",
+    "nome_banda": "Linkin Park",
+    "ano_lancamento": 2007,
+    "quantidade_musicas": 12
+  },
+  {
+    "nome_disco": "Elephant",
+    "nome_banda": "The White Stripes",
+    "ano_lancamento": 2003,
+    "quantidade_musicas": 14
+  },
+  {
+    "nome_disco": "Elephunk",
+    "nome_banda": "The Black Eyed Peas",
+    "ano_lancamento": 2003,
+    "quantidade_musicas": 14
+  },
+  {
+    "nome_disco": "Room on Fire",
+    "nome_banda": "The Strokes",
+    "ano_lancamento": 2003,
+    "quantidade_musicas": 11
+  }
+]
