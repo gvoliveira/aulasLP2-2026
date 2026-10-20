@@ -20,3 +20,19 @@ botaoImprime.addEventListener("click", () => {
     if(entrada)
        mensagemEle.innerText = `Bom dia, ${entrada}!`     
 })
+
+//20 de outubro
+const listaCarros = document.getElementById("lista-carros")
+
+listaCarros.addEventListener("mouseover", (evento) => {
+    console.log(evento.target.id)
+    const elementoP = document.getElementById("descricao-carro")
+    if(evento.target.id == "fusca"){
+        elementoP.innerText = `Carro mais charmoso. `
+    }else if(evento.target.id == "ferrari"){
+        elementoP.innerText = `Carro mais feioso. `
+    }else if(evento.target.id == "brasilia"){
+        elementoP.innerText = `Carro mais amarelo   . `
+    }
+})
+

@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS - DOM</title>
     <script src="dom.js" defer></script>
+    
     <style>
         body{
             font-family: sans-serif;
             background-color: rgb(240, 240, 240);
+        }
+        .conteudo-lista{
+            display: flex;
+            justify-content: space-evenly;
         }
     </style>
 </head>
@@ -21,6 +26,18 @@
     <input type="text" id="nome">
     <button id="imprime">Imprimir</button>
     <h3 id="mensagem"></h3>
+
+    <h2>Exemplo com Lista</h2>
+    <div class="conteudo-lista">
+        <ul id="lista-carros">
+            <li id="fusca">Fusca</li>
+            <li id="ferrari">Ferrari</li>
+            <li id="brasilia">Brasilia Amarela</li>
+        </ul>
+        <p id="descricao-carro">
+            blank
+        </p>
+    </div>
 
 
 </body>
