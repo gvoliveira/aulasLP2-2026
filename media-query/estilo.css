@@ -1,0 +1,19 @@
+div {
+    border: 1px solid black;
+}
+
+h1{
+    color: blue;
+}
+.conteudo {
+    display: flex;
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+       flex-direction: column; 
+    }
+    h1{
+        color: red;
+    }
+}
